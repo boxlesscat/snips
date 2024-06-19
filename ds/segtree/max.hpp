@@ -10,10 +10,14 @@
 using namespace std;
 
 
-// 01. the 'in' vector is expected to be 0-indexed. everything else in the implementation is 1 indexed
-// 02. remember to add most min value during declaration if the type is not int
-// (eg: MaxSegTree<long long, LLONG_MIN> seg(in))
-//                            ^^^^^^^^^
+//! the 'in' vector is expected to be 0-indexed
+ // query0() and update0() are also 0-indexed
+ // everything else in the implementation is 1 indexed
+
+//! add the most min value during declaration if the type is not int
+ // (eg: MaxSegTree<long long, LLONG_MIN> seg(in))
+ //                            ^^^^^^^^^
+
 
 // >>>>>>>>>>>>>
 
@@ -96,5 +100,6 @@ public:
 };
 
 // <<<<<<<<<<<<<
+
 
 #endif

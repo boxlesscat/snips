@@ -9,7 +9,10 @@
 using namespace std;
 
 
-// 01. the 'in' vector is expected to be 0-indexed. everything else in the implementation is 1 indexed
+//! the 'in' vector is expected to be 0-indexed
+ // query0() and update0() are also 0-indexed
+ // everything else in the implementation is 1 indexed
+
 
 // >>>>>>>>>>>>>
 
@@ -90,5 +93,6 @@ public:
 };
 
 // <<<<<<<<<<<<<
+
 
 #endif
