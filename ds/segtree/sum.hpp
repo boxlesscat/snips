@@ -3,7 +3,6 @@
 #ifndef SEGTREE_SUM
 #define SEGTREE_SUM
 
-#include <iostream>
 #include <vector>
 
 using namespace std;
